@@ -1,12 +1,30 @@
-## Hi there 👋
+# ManageYourMoney
 
-<!--
+#### This org containes all the repositories related to ManageYourMoney Application.
 
-**Here are some ideas to get you started:**
+## Repositories
+#### Backend
+  - Backend is developed using spring framework using soring boot.
+  - Backend is based on microservice architecure.
+  - Backend contains below microservices.
+    - [mym-config-server](https://github.com/manage-your-money-org/mym-config-server)
+    - [mym-discovery-server](https://github.com/manage-your-money-org/mym-discovery-server)
+    - [mym-api-gateway](https://github.com/manage-your-money-org/mym-api-gateway)
+    - [mym-user-authentication-service](https://github.com/manage-your-money-org/mym-user-authentication-service)
+    - [mym-email-and-notification-service](https://github.com/manage-your-money-org/mym-email-and-notification-service)
+    - [mym-expense-category-service](https://github.com/manage-your-money-org/mym-expense-category-service)
+    - [mym-expense-service](https://github.com/manage-your-money-org/mym-expense-service)
+   
+#### Frontend
+- Frontend is developed using Angular
+  - [manage-your-money-frontend](https://github.com/manage-your-money-org/manage-your-money-frontend)
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+---
+
+## Containerization
+**Docker** is used for containerization.
+- [mym-docker-and-kubernetes-configs](https://github.com/manage-your-money-org/mym-docker-and-kubernetes-configs)
+- *docker-compose* contains the definition for managing the docker applications.
+
+## Message-Broker
+**RabbitMQ** is used as a message broker for the asynchronous communication between the microservices.
