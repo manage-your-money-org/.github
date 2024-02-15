@@ -4,7 +4,7 @@
 
 ## Repositories
 #### Backend
-  - Backend is developed using spring framework using soring boot.
+  - Backend is developed using spring framework using SpringBoot.
   - Backend is based on microservice architecure.
   - Backend contains below microservices.
     - [mym-config-server](https://github.com/manage-your-money-org/mym-config-server)
@@ -24,7 +24,7 @@
 ## Containerization
 **Docker** is used for containerization.
 - [mym-docker-and-kubernetes-configs](https://github.com/manage-your-money-org/mym-docker-and-kubernetes-configs)
-- *docker-compose* contains the definition for managing the docker applications.
+- *docker-compose* contains the definition for managing the docker containers.
 
 ## Message-Broker
 **RabbitMQ** is used as a message broker for the asynchronous communication between the microservices.
