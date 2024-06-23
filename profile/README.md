@@ -5,8 +5,8 @@
 ## Repositories
 #### Backend
   - Backend is developed using spring framework using SpringBoot.
-  - Backend is based on microservice architecure.
-  - Backend contains below microservices.
+  - Based on microservice architecure.
+  - Contains below microservices.
     - [mym-config-server](https://github.com/manage-your-money-org/mym-config-server)
     - [mym-discovery-server](https://github.com/manage-your-money-org/mym-discovery-server)
     - [mym-api-gateway](https://github.com/manage-your-money-org/mym-api-gateway)
